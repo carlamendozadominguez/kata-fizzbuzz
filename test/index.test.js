@@ -7,5 +7,7 @@ describe('Index', () => {
 
   test('Debería return FIZZ si number es divisible por 3', () => {
     expect(fizzbuzz(6)).toBe('FIZZ');
+    expect(fizzbuzz(18)).toBe('FIZZ');
+    expect(fizzbuzz(21)).toBe('FIZZ');
   });
 });
