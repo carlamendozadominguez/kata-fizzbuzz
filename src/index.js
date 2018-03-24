@@ -1,13 +1,16 @@
+export const isFizz = (value) => value % 3 === 0;
+export const isBuzz = (value) => value % 5 === 0;
+
 export const fizzbuzz = (value) => {
-  if (value % 3 === 0 && value % 5 === 0) {
+  if (isBuzz(value) && isFizz(value)) {
     return 'FIZZBUZZ';
   }
 
-  if (value % 3 === 0) {
+  if (isFizz(value)) {
     return 'FIZZ';
   }
 
-  if (value % 5 === 0) {
+  if (isBuzz(value)) {
     return 'BUZZ';
   }
   return value.toString();
