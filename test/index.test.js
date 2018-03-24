@@ -1,5 +1,5 @@
 describe('Index', () => {
-  test('Debe sumar dos números', () => {
-    expect(2 + 3).toBe(5);
+  test('Debería devolver un number como un string', () => {
+    expect(fizzbuzz(1)).toBe('1');
   });
 });
