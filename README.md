@@ -2,9 +2,10 @@
 
 Basado en: http://codingdojo.org/kata/FizzBuzz/
 
+
 ## Descripción del problema
 
-Devolveremos: 
+Devolveremos:
 
 - "fizz" si el número introducido es divisible entre 3
 - "buzz" si el número introducido es divisible entre 5
